@@ -5,11 +5,21 @@
 
 html, body {
   height: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
-  height: 100%;
-  background: yellow;
+  min-height: 100%;
+  /*background: yellow;*/
+}
+
+img {
+  border-radius: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .header {
@@ -18,14 +28,21 @@ html, body {
   text-transform: uppercase;
 }
 
+@media (min-width: 500px) {
+  .content {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .content {
-  display: grid; 
-  grid-template-columns: 1fr 1fr; 
-  grid-template-rows: 1fr 1fr; 
-  gap: 20px 20px; 
-  justify-content: space-around; 
-  justify-items: center; 
-  align-items: center; 
+  text-align: center;
+}
+
+.recipe-card {
+    padding: 15px;
+    width: 50%;
+    margin: 0 1em 1em 1em;
 }
 
 .footer {
