@@ -40,12 +40,36 @@ a {
 }
 
 .recipe-card {
-    padding: 15px;
-    width: 50%;
-    margin: 0 1em 1em 1em;
+  padding: 15px;
+  width: 50%;
+  margin: 0 1em 1em 1em;
+}
+
+.recipe-overview {
+  text-align: left;
+  margin: auto;
+  }
+
+.recipe-details {
+  text-align: left;
+  padding-left: 50px;
+}
+
+.recipe-steps {
+  width: 70%;
+}
+
+.recipe-details h3 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .footer {
   text-align: center;
   text-transform: uppercase;
+  padding-top: 20px;
 }
